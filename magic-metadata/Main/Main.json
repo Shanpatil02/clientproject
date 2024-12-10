@@ -1,0 +1,121 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"Main",
+		"component_path":	"Main/",
+		"component_uniquename":	"Main_Main"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	867,
+		"height":	633
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button7",
+				"format":	"Context Remove",
+				"common_line_id":	"line32"
+			},
+			"coordinates":	{
+				"x":	53,
+				"y":	32,
+				"width":	91,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button1",
+				"format":	"Customer",
+				"common_line_id":	"line32"
+			},
+			"coordinates":	{
+				"x":	150,
+				"y":	32,
+				"width":	71,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button2",
+				"format":	"Supplier",
+				"common_line_id":	"line32"
+			},
+			"coordinates":	{
+				"x":	241,
+				"y":	32,
+				"width":	79,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button12",
+				"format":	"Customer Overlay",
+				"common_line_id":	"line75"
+			},
+			"coordinates":	{
+				"x":	53,
+				"y":	75,
+				"width":	153,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button13",
+				"format":	"Supplier Overlay",
+				"common_line_id":	"line75"
+			},
+			"coordinates":	{
+				"x":	212,
+				"y":	75,
+				"width":	140,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Subform3",
+				"is_router_outlet":	true,
+				"default_outlet":	true,
+				"common_line_id":	"line133"
+			},
+			"coordinates":	{
+				"x":	12,
+				"y":	133,
+				"width":	827,
+				"height":	479
+			},
+			"hint":	null,
+			"controlType":	"F",
+			"children":	null
+		}
+	]
+}

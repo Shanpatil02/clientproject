@@ -1,0 +1,46 @@
+<div
+    novalidate
+    [formGroup]="screenFormGroup"
+>
+    <div
+        style="display: flex; flex-direction: column"
+        [magic]="mgc.sub"
+    >
+        <div style="display: flex; flex-direction: row">
+            <label
+                [magic]="mgc.Label6"
+                class="lable_overflow mgFont1"
+            >
+                Park
+            </label>
+            <div>
+                <mat-form-field>
+                    <div>
+                        <input
+                            matInput
+                            [magic]="mgc.V_Park"
+                            [formControlName]="mgc.V_Park"
+                            mgFormat
+                        >
+                        <mgError [magic]=mgc.V_Park> </mgError>
+                    </div>
+                </mat-form-field>
+            </div>
+        </div>
+        <div style="display: flex; flex-direction: row">
+            <mat-radio-group
+                (change)="task.mgOnRadioSelectionChanged(mgc.Radio_Button3)"
+                [magic]="mgc.Radio_Button3"
+                [magic]="mgc.Radio_Button3"
+                [formControlName]="mgc.Radio_Button3"
+            >
+                <mat-radio-button
+                    *ngFor="let o of mg.getItemListValues(mgc.Radio_Button3);"
+                    [value]="o.index"
+                >
+                    {{o.displayValue}}
+                </mat-radio-button>
+            </mat-radio-group>
+        </div>
+    </div>
+</div>

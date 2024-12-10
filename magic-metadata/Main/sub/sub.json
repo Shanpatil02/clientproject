@@ -1,0 +1,73 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"sub",
+		"component_path":	"Main/sub/",
+		"component_uniquename":	"Main_sub_sub"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	240,
+		"height":	153
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	{
+				"font":	1
+			},
+			"props":	{
+				"id":	"Label6",
+				"text":	"Park",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	35,
+				"y":	13,
+				"width":	24,
+				"height":	15
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"V_Park",
+				"mgformat":	"mgFormat",
+				"attribute":	"A",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	64,
+				"y":	13,
+				"width":	76,
+				"height":	20
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Radio_Button3",
+				"items_list":	"A,B,C",
+				"attribute":	"A",
+				"common_line_id":	"line58"
+			},
+			"coordinates":	{
+				"x":	82,
+				"y":	58,
+				"width":	103,
+				"height":	80
+			},
+			"hint":	null,
+			"controlType":	"R",
+			"children":	null
+		}
+	]
+}

@@ -1,0 +1,53 @@
+<div
+    novalidate
+    [formGroup]="screenFormGroup"
+>
+    <div
+        style="display: flex; flex-direction: column"
+        [magic]="mgc.Main"
+    >
+        <div style="display: flex; flex-direction: row">
+            <button
+                mat-raised-button
+                color="primary"
+                [magic]="mgc.Button7"
+            >
+                Context Remove
+            </button>
+            <button
+                mat-raised-button
+                color="primary"
+                [magic]="mgc.Button1"
+            >
+                Customer
+            </button>
+            <button
+                mat-raised-button
+                color="primary"
+                [magic]="mgc.Button2"
+            >
+                Supplier
+            </button>
+        </div>
+        <div style="display: flex; flex-direction: row">
+            <button
+                mat-raised-button
+                color="primary"
+                [magic]="mgc.Button12"
+            >
+                Customer Overlay
+            </button>
+            <button
+                mat-raised-button
+                color="primary"
+                [magic]="mgc.Button13"
+            >
+                Supplier Overlay
+            </button>
+        </div>
+        <div style="display: flex; flex-direction: row">
+            <router-outlet [magic]="mgc.Subform3">
+            </router-outlet>
+        </div>
+    </div>
+</div>

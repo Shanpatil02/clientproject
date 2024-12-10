@@ -1,0 +1,514 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"WebClientSuppliersOverlay",
+		"window_type":	12,
+		"component_path":	"WebClientSuppliersOverlay/",
+		"component_uniquename":	"WebClientSuppliersOverlay_WebClientSuppliersOverlay"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	0,
+		"height":	0
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Table24",
+				"table_row_height":	78,
+				"table_title_height":	19,
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	12,
+				"y":	13,
+				"width":	2116,
+				"height":	302
+			},
+			"hint":	null,
+			"controlType":	"A",
+			"children":	[
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column37",
+						"column_title":	"SupplierID",
+						"sortable":	true,
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	80
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Suppliers_SupplierID",
+								"items_list":	"\\-2147483648-2147483647",
+								"mgformat":	"mgFormat",
+								"validator":	"rangevalidator",
+								"attribute":	"N",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	16,
+								"y":	36,
+								"width":	72,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column38",
+						"column_title":	"CompanyName",
+						"sortable":	true,
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	294
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Suppliers_CompanyName",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	96,
+								"y":	36,
+								"width":	286,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column39",
+						"column_title":	"ContactName",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	224
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Suppliers_ContactName",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	390,
+								"y":	36,
+								"width":	216,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column40",
+						"column_title":	"ContactTitle",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	224
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Suppliers_ContactTitle",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	614,
+								"y":	36,
+								"width":	216,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column41",
+						"column_title":	"Address",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	434
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Suppliers_Address",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	838,
+								"y":	36,
+								"width":	426,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column42",
+						"column_title":	"City",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	119
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Suppliers_City",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	1272,
+								"y":	36,
+								"width":	111,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column43",
+						"column_title":	"Region",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	119
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Suppliers_Region",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	1391,
+								"y":	36,
+								"width":	111,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column44",
+						"column_title":	"PostalCode",
+						"sortable":	true,
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	84
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Suppliers_PostalCode",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	1510,
+								"y":	36,
+								"width":	76,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column45",
+						"column_title":	"Country",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	119
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Suppliers_Country",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	1594,
+								"y":	36,
+								"width":	111,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column46",
+						"column_title":	"Phone",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	182
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Suppliers_Phone",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	1713,
+								"y":	36,
+								"width":	174,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column47",
+						"column_title":	"Fax",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	182
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Suppliers_Fax",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	1895,
+								"y":	36,
+								"width":	174,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column48",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	51
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"EnterRowEditing",
+								"format":	"Edit",
+								"is_table_child":	true,
+								"web_style":	2,
+								"row_editing_type":	1,
+								"common_line_id":	"line36"
+							},
+							"coordinates":	{
+								"x":	2077,
+								"y":	36,
+								"width":	28,
+								"height":	22
+							},
+							"hint":	null,
+							"controlType":	"B",
+							"children":	null
+						},
+						{
+							"style":	null,
+							"props":	{
+								"id":	"SaveRowEditing",
+								"format":	"Save",
+								"is_table_child":	true,
+								"web_style":	2,
+								"row_editing_type":	3,
+								"common_line_id":	"line62"
+							},
+							"coordinates":	{
+								"x":	2077,
+								"y":	62,
+								"width":	35,
+								"height":	22
+							},
+							"hint":	null,
+							"controlType":	"B",
+							"children":	null
+						},
+						{
+							"style":	null,
+							"props":	{
+								"id":	"CancelRowEditing",
+								"format":	"Cancel",
+								"is_table_child":	true,
+								"web_style":	2,
+								"row_editing_type":	2,
+								"common_line_id":	"line88"
+							},
+							"coordinates":	{
+								"x":	2077,
+								"y":	88,
+								"width":	43,
+								"height":	22
+							},
+							"hint":	null,
+							"controlType":	"B",
+							"children":	null
+						}
+					]
+				}
+			]
+		}
+	]
+}

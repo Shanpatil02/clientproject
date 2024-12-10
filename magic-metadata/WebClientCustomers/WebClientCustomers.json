@@ -1,0 +1,239 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"WebClientCustomers",
+		"component_path":	"WebClientCustomers/",
+		"component_uniquename":	"WebClientCustomers_WebClientCustomers"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	557,
+		"height":	452
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"V_MainVar",
+				"mgformat":	"mgFormat",
+				"modifiable":	false,
+				"attribute":	"A",
+				"common_line_id":	"line44"
+			},
+			"coordinates":	{
+				"x":	71,
+				"y":	47,
+				"width":	76,
+				"height":	20
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button53",
+				"format":	"Update",
+				"common_line_id":	"line44"
+			},
+			"coordinates":	{
+				"x":	170,
+				"y":	45,
+				"width":	41,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button54",
+				"format":	"ContextRemove",
+				"common_line_id":	"line44"
+			},
+			"coordinates":	{
+				"x":	241,
+				"y":	44,
+				"width":	99,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Table24",
+				"table_row_height":	78,
+				"table_title_height":	19,
+				"common_line_id":	"line143"
+			},
+			"coordinates":	{
+				"x":	12,
+				"y":	143,
+				"width":	418,
+				"height":	302
+			},
+			"hint":	null,
+			"controlType":	"A",
+			"children":	[
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column36",
+						"column_title":	"CustomerID",
+						"sortable":	true,
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	66
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Customers_CustomerID",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line166"
+							},
+							"coordinates":	{
+								"x":	16,
+								"y":	166,
+								"width":	41,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column37",
+						"column_title":	"CompanyName",
+						"sortable":	true,
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	294
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"Customers_CompanyName",
+								"mgformat":	"mgFormat",
+								"attribute":	"U",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line166"
+							},
+							"coordinates":	{
+								"x":	82,
+								"y":	166,
+								"width":	286,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column47",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	51
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"EnterRowEditing",
+								"format":	"Edit",
+								"is_table_child":	true,
+								"web_style":	2,
+								"row_editing_type":	1,
+								"common_line_id":	"line166"
+							},
+							"coordinates":	{
+								"x":	376,
+								"y":	166,
+								"width":	28,
+								"height":	22
+							},
+							"hint":	null,
+							"controlType":	"B",
+							"children":	null
+						},
+						{
+							"style":	null,
+							"props":	{
+								"id":	"SaveRowEditing",
+								"format":	"Save",
+								"is_table_child":	true,
+								"web_style":	2,
+								"row_editing_type":	3,
+								"common_line_id":	"line192"
+							},
+							"coordinates":	{
+								"x":	376,
+								"y":	192,
+								"width":	35,
+								"height":	22
+							},
+							"hint":	null,
+							"controlType":	"B",
+							"children":	null
+						},
+						{
+							"style":	null,
+							"props":	{
+								"id":	"CancelRowEditing",
+								"format":	"Cancel",
+								"is_table_child":	true,
+								"web_style":	2,
+								"row_editing_type":	2,
+								"common_line_id":	"line218"
+							},
+							"coordinates":	{
+								"x":	376,
+								"y":	218,
+								"width":	43,
+								"height":	22
+							},
+							"hint":	null,
+							"controlType":	"B",
+							"children":	null
+						}
+					]
+				}
+			]
+		}
+	]
+}
