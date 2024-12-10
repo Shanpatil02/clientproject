@@ -17,3 +17,20 @@
  <-1> 10/12/2024 18:11:30.713     [Info   ] -   Project opened successfully. 
  *********************   Date: 10/12/2024  ********************
  <-1> 10/12/2024 18:11:31.204     [Error  ] -   Server terminated unexpectedly: Error: "The xpa Server could not connect to the Broker" (-150)
+ <-1> 10/12/2024 18:17:33.754     [Info   ] - Starts Loading Component : D:\magicxpa411\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 10/12/2024 18:17:33.767     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 10/12/2024 18:17:33.839     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 10/12/2024 18:17:33.840     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 10/12/2024 18:17:33.883     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 10/12/2024 18:17:33.903     [Info   ] - Starts Loading Component : System 
+ <-1> 10/12/2024 18:17:33.952     [Info   ] - Ends Loading Component : System 
+ <-1> 10/12/2024 18:17:33.953     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 10/12/2024 18:17:34.019     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 10/12/2024 18:17:34.020     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 10/12/2024 18:17:34.136     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 10/12/2024 18:17:34.137     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 10/12/2024 18:17:34.168     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 10/12/2024 18:17:34.176     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 10/12/2024 18:17:34.204     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 10/12/2024 18:17:34.234     [Info   ] - Ends Loading Component : D:\magicxpa411\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 10/12/2024 18:17:34.244     [Info   ] -   Project opened successfully. 
